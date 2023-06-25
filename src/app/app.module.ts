@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/layout/footer/footer.component';
 import { SignupComponent } from './modules/signup/signup.component';
 import { LoginComponent } from './modules/login/login.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { PageNotFoundComponent } from './shared/component/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './modules/dashboard/dashboard.component';
     FooterComponent,
     SignupComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
